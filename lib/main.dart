@@ -1,6 +1,9 @@
+import 'package:custom_paint_sample/pages/all_buttons.dart';
 import 'package:flutter/material.dart';
 
 import 'pages/sample_1/main_page.dart';
+import 'pages/sample_2/sample_2_page.dart';
+import 'pages/sample_3/sample_3_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,6 +31,6 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MainPage();
+    return AllButtonsPage();
   }
 }
