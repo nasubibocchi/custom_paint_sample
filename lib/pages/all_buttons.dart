@@ -1,4 +1,5 @@
 import 'package:custom_paint_sample/pages/sample_2/restricted_button_paint_widget.dart';
+import 'package:custom_paint_sample/pages/sample_4/start_button_widget.dart';
 import 'package:flutter/material.dart';
 
 import 'sample_3/double_line_button_paint_widget.dart';
@@ -16,6 +17,8 @@ class AllButtonsPage extends StatelessWidget {
             RestrictedButtonWidget(),
             SizedBox(height: 20.0),
             DoubleLineButtonPaintWidget(),
+            SizedBox(height: 20.0),
+            StartButtonWidget(),
           ],
         ),
       ),
