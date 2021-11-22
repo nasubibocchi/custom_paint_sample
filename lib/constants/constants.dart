@@ -6,3 +6,5 @@ const normalButtonSize = Size(150, 50);
 const restrictedButtonSize = Size(100, 100);
 
 const doubleLineButtonSize = Size(150, 50);
+
+const startButtonSize = Size(100, 100);
